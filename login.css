@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: rgb(252,245,235);
+  
+  width: 100%;
+}
+
+/* Header */
+.header {
+    width: 100%;
+    
+}
+
+.header img {
+    padding:0.5rem 2rem;
+    
+}
+
+/* Download Banner */
+.download-banner {
+  margin:auto;
+  margin-top: 30px;
+  max-width: 800px;
+  background: #fff;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 20px 3rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap:2rem;
+}
+
+.banner-left {
+  display: flex;
+  gap: 15px;
+}
+
+
+.download-btn {
+  display: flex;
+  align-items: center;      /* Vertical center */
+  justify-content: center;  /* Horizontal center */
+
+  background: #25d366;
+  color: #080808;
+  border: 1px solid black;
+  padding: 10px 24px;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Login Card */
+.login-card {
+  max-width: 800px;
+  margin: auto;
+  background: #fff;
+  border-radius: 20px;
+  padding: 40px;
+  border:1px solid black;
+  margin-top:20px;
+}
+.top{
+    display:flex;
+    justify-content:space-between;
+    
+}
+.top-left{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    gap: 30px;
+}
+.top-left ol{
+    display:flex;
+    flex-direction:column;
+    list-style:none;
+    gap: 20px;
+}
+.top-left ol li{
+  display:flex;
+  gap:10px;
+}
+.liSpan{
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+  border-radius:50%;
+  vertical-align:middle;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.phone-login {
+  color: #25d366;
+  text-decoration: none;
+  font-weight: 500;
+}
+.bottom{
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.qr {
+  padding: 20px;
+  border: 2px solid #eee;
+  border-radius: 12px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+footer a {
+  color: #25d366;
+  text-decoration: none;
+}
+
+.lock {
+  margin-top: 10px;
+  color: #555;
+}
